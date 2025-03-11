@@ -9,14 +9,15 @@ body{
 header{
     margin: 5px auto auto auto;
     min-width: 160px;
-    background-color: rgb(168, 161, 145);
+    background-color: #a8a191;
 }
 
 nav{
-    background-color: lightslategray;
+    background-color: #778899;
 }
 
 table{
+    border: #ffe4c4 3px dotted;
     margin: auto 10px auto 10px;
     width: fit-content;
     display: block;
@@ -31,7 +32,7 @@ table,tr,td{
 }
 
 tr,td{
-    border: burlywood solid 1px;
+    border: #deb887 solid 1px;
     padding: 5px;
     height: 25px;
     width: 50px;
