@@ -1,11 +1,25 @@
 body{
-    background-color: blanchedalmond;
+    color: bisque;
+    background-color: dimgray;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    margin: 5px auto auto auto;
+    min-width: 160px;
+    background-color: #a8a191;
+}
+
+nav{
+    background-color: #778899;
 }
 
 h1{
     text-align: center;
     text-decoration: underline;
-    color: saddlebrown;
+    color: bisque;
 }
 
 img{
