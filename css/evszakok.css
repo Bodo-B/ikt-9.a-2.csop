@@ -27,6 +27,7 @@ img{
     border: darksalmon solid 1px;
     transition: 1s;
     width: 20%;
+    display: block;
     margin: auto;
 }
 
