@@ -34,19 +34,3 @@ img{
 img:hover{
     transform: scale(1.5);
 }
-
-#tavasz:hover{
-    transform: translate(50px, 100px) scale(1.5);
-}
-
-#nyar:hover{
-    transform: translate(50px, 100px) scale(1.5);
-}
-
-#osz:hover{
-    transform: translate(-50px, 100px) scale(1.5);
-}
-
-#tel:hover{
-    transform: translate(-50px, 100px) scale(1.5);
-}
