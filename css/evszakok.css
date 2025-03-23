@@ -26,10 +26,10 @@ img{
     border-radius: 20px;
     border: darksalmon solid 1px;
     transition: 1s;
-    transform: scale(1.5);
     width: 20%;
+    margin: auto;
 }
 
-div{
-    margin: 500px auto 500px auto;
+img:hover{
+    transform: scale(1.5);
 }
