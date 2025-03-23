@@ -34,3 +34,19 @@ img{
 img:hover{
     transform: scale(1.9);
 }
+
+#tavasz{
+    transform: translate(50px, 100px);
+}
+
+#nyar{
+    transform: translate(50px, 100px);
+}
+
+#osz{
+    transform: translate(-50px, 100px);
+}
+
+#tel{
+    transform: translate(-50px, 100px);
+}
