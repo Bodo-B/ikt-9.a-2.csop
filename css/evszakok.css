@@ -32,21 +32,21 @@ img{
 }
 
 img:hover{
-    transform: scale(1.9);
+    transform: scale(1.5);
 }
 
-#tavasz{
-    transform: translate(50px, 100px);
+#tavasz:hover{
+    transform: translate(50px, 100px) scale(1.5);
 }
 
-#nyar{
-    transform: translate(50px, 100px);
+#nyar:hover{
+    transform: translate(50px, 100px) scale(1.5);
 }
 
-#osz{
-    transform: translate(-50px, 100px);
+#osz:hover{
+    transform: translate(-50px, 100px) scale(1.5);
 }
 
-#tel{
-    transform: translate(-50px, 100px);
+#tel:hover{
+    transform: translate(-50px, 100px) scale(1.5);
 }
