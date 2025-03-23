@@ -25,7 +25,7 @@ h1{
 img{
     border-radius: 20px;
     border: darksalmon solid 1px;
-    transition: 1s;
+    transition: 0.5s;
     width: 20%;
     display: block;
     margin: auto;
