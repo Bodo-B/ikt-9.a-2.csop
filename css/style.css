@@ -1,6 +1,6 @@
 body{
     color: bisque;
-    background-color: dimgray;
+    background-color: rgb(180, 180, 180);
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
@@ -39,6 +39,10 @@ tr,td{
 }
 
 td:hover{
-    background-color: bisque;
-    color: dimgray;
+    background-color: #ffe4c4;
+    color: #778899;
+}
+
+.kozep h1, h2{
+    text-align: center;
 }
