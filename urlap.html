@@ -13,7 +13,7 @@
             <a href="listak.html">listák</a> |
             <a href="orarend.html">órarend</a> |
             <a href="evszakok.html">évszakok</a> |
-            <a href="urlap.html"></a>
+            <a href="urlap.html">űrlap</a>
         </nav>
     </header>
     <h1 class="kozep">rendelj pizzát most!</h1>
@@ -21,33 +21,34 @@
     <form>
         <fieldset>
             <legend>Személyes adatok</legend>
-            <label for="nev">Név: </label><input type="text" name="nev" id="nev" placeholder="pl: Favágó Mihály" required> <br>
-            <label for="email">E-mail cím:</label><input type="text" name="email" id="email" placeholder="pl:favagom79@valami.hu" required> <br>
-            <label for="tel">Telefonszám: </label><input type="number" name="tel" id="tel" required> <br>
-            <label for="cim">Lakcím: </label><input type="text" name="cim" id="cim" required>
+            <label for="nev">Név: </label><input type="text" name="nev" id="nev" placeholder="pl: Favágó Mihály" required> <br> <br>
+            <label for="email">E-mail cím:</label><input type="text" name="email" id="email" placeholder="pl:favagom79@valami.hu" required> <br> <br>
+            <label for="tel">Telefonszám: </label><input type="number" name="tel" id="tel" required> <br> <br>
+            <label for="cim">Lakcím: </label><input type="text" name="cim" id="cim" required> <br> <br>
         </fieldset>
         <fieldset>
             <legend>Rendelés</legend>
-            <h3>Méret</h3>
+            <h3>Méret:</h3>
             <input type="radio" name="meret" id="kicsi"><label for="kicsi">25cm</label>
             <input type="radio" name="meret" id="kozepes"><label for="kozepes">32cm</label>
-            <input type="radio" name="meret" id="nagy"><label for="nagy">55cm</label><br> <br>
-            <label for="alap">Kérem válasszon alapot</label>
+            <input type="radio" name="meret" id="nagy"><label for="nagy">55cm</label> <br> <br>
+            <label for="alap">Kérem válasszon alapot:</label>
             <select name="alap" id="alap">
                 <option value=""></option>
                 <option value="par">Paradicsomos</option>
                 <option value="tej">Tejföl</option>
-            </select><br> <br>
+            </select> <br> <br>
             <label for="feltet">Feltétek:</label>
             <input type="checkbox" name="feltet1" id="feltet1"><label for="feltet1">Kukorica</label>
             <input type="checkbox" name="feltet2" id="feltet2"><label for="feltet2">Sonka</label>
             <input type="checkbox" name="feltet3" id="feltet3"><label for="feltet3">Sajt</label>
             <input type="checkbox" name="feltet4" id="feltet4"><label for="feltet4">Kolbász</label>
             <input type="checkbox" name="feltet5" id="feltet5"><label for="feltet5">Gomba</label>
-            <input type="checkbox" name="feltet6" id="feltet6"><label for="feltet6">Rukola</label>
+            <input type="checkbox" name="feltet6" id="feltet6"><label for="feltet6">Szalámi</label>
             <label for="uzenet">Üzenet a szakácsnak:</label><br>
             <textarea name="uzenet" id="uzenet" cols="30" rows="10"></textarea><br>
-            <input type="submit" value="Küldés">
+            <input type="button" value="Küldés" onclick="alert('Köszönjük a megrendelését!')">
+            <button type="reset">Törlés</button>
         </fieldset>
     </form>
 </body>
